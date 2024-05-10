@@ -1,0 +1,43 @@
+body {
+    background-image: url("assets/images/bg/bg2_cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: 'Prompt', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container .fa-user-circle {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-container .login {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    caret-color: #00dbff;
+}
+
+.no-underline {
+    text-decoration: none;
+}
